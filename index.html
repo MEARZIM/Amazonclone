@@ -11,6 +11,20 @@
     <link rel="icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <title>Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in</title>
+ <script>
+    function myFunction(x) {
+        if (x.matches) { // If media query matches
+            document.body.style.display = "none";
+            alert("This Site Won't work in mobiles :: Open link on Desktop Please")
+        } else {
+            document.body.style.display = "block";
+        }
+    }
+
+    var x = window.matchMedia("(max-width: 600px)")
+    myFunction(x) // Call listener function at run time
+    x.addListener(myFunction) // Attach listener function on state changes
+ </script>
 </head>
 
 <body>
