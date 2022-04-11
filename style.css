@@ -14,7 +14,7 @@
         background-color: red;
         text-align: center;
     }
-    #pop-div>h1 {
+    #pop-div>h3 {
         display: block;
         min-width: auto;
     }
