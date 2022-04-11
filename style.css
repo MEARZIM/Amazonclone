@@ -5,6 +5,13 @@
     padding: 0;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    display:none;
+    background-color:red;
+  }
+}
+
 .upper {
     background-color: black;
     display: flex;
