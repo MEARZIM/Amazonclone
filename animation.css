@@ -1,0 +1,33 @@
+.slider{
+    width: 98%;
+    height: 500px;
+    position: absolute;
+    left: 15px;
+    background-image: url(animationIMG/books.jpg);
+    background-size: 100% 100%;
+    animation: slide 25s infinite linear ;
+}
+
+@keyframes slide {
+    0%{
+        background-image: url(animationIMG/books.jpg);
+    }
+    15%{
+        background-image: url(animationIMG/electronics.jpg);
+    }
+    30%{
+        background-image: url(animationIMG/amzonpay.jpg);
+    }
+    40%{
+        background-image: url(animationIMG/fashion.jpg);
+    }
+    55%{
+        background-image: url(animationIMG/honor.jpg);
+    }
+    67%{
+        background-image: url(animationIMG/primevideo.jpg);
+    }
+    78%{
+        background-image: url(animationIMG/tv.jpg);
+    }
+}

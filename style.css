@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.upper {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 15px 4px 10px;
+}
+
+.upper .logo{
+    text-align: center;
+    margin: -1px;
+    margin-bottom: -5px;
+    padding: 6px 8px 0 0;
+    height: 42px;
+}
+.upper .item a {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+.upper .item i{
+    padding: 0 5px;
+}
+.upper .item{
+    padding: 10px 10px;
+    
+}
+.upper .item p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 150;
+    color: white;
+}
+.upper .item:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+    margin: -1px;
+    cursor: pointer;
+}
+.all{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    background:whitesmoke;
+    padding: 10px 10px;
+    color: black;
+    font-size: 17px;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+
+.all:hover{
+    background-color: rgba(255, 255, 255, 0.41);
+    margin: -1;
+}
+
+input[type=search] {
+    width: 49vw;
+    border-radius: 0px;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+
+.content {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 150;
+    color: white;
+}
+
+.content1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+
+}
+nav button {
+    padding: 10px 10px;
+    margin: 0px;
+    background: rgb(233, 176, 129);
+    border-radius: 0 5px 5px 0;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+nav button:hover{
+    background-color: rgb(247, 155, 80) ;
+    margin: -1;
+}
+.dflex{
+    display: flex;
+    align-items: center;
+}
+
+.navigation{
+    background-color: #232f3e;
+    padding: 4px 15px 4px 10px;
+}
+.list{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0px;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    list-style: none;
+    font-weight: 500;
+    padding: 1px 5px;
+    font-size: 14px;
+}
+nav .list a{
+    text-decoration: none;
+}
+ul img{
+    padding-left: 225px;
+}
+
+.list a{
+    padding-left: 4px;
+}
+.list a:hover{
+    border: 1px solid white;
+    border-radius: 1px;
+    margin: -1px;
+    cursor: pointer;
+}
