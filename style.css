@@ -6,9 +6,27 @@
 }
 
 @media only screen and (max-width: 700px) {
-  body {
-    display:none;
-  }
+    .main {
+        display: none;
+    }
+    #pop-div {
+        display: block;
+        background-color: red;
+        text-align: center;
+    }
+    #pop-div>h1 {
+        display: block;
+        min-width: auto;
+    }
+    body {
+        width: 100vw;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('https://i0.wp.com/learn.onemonth.com/wp-content/uploads/2017/08/1-10.png?fit=845%2C503&ssl=1');
+        background-repeat: no-repeat;
+    }
 }
 
 .upper {
